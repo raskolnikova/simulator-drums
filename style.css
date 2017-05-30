@@ -29,6 +29,13 @@ body {
     border-radius: 5px;
     text-shadow: 0 0 3px black;
     background: rgba(0, 0, 0, 0.4);
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(0.8);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
 }
 
 kbd {
